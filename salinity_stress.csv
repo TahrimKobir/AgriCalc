@@ -1,6 +1,0 @@
-Treatment,Seeds_Sown,Seeds_Germinated,Yield_g
-Control,100,94,63
-50 mM NaCl,100,88,58
-100 mM NaCl,100,76,49
-150 mM NaCl,100,61,38
-200 mM NaCl,100,43,25
