@@ -1,0 +1,5 @@
+Treatment,Seeds_Sown,Seeds_Germinated,Yield_g
+Control,100,74,41
+Azotobacter,100,82,48
+PSB,100,86,53
+Azotobacter + PSB,100,93,60

@@ -1,0 +1,6 @@
+Treatment,Seeds_Sown,Seeds_Germinated,Yield_g
+Control,100,72,42
+Hydropriming,100,79,47
+Zn 25 ppm,100,84,51
+Zn 50 ppm,100,91,57
+Zn 100 ppm,100,95,62
