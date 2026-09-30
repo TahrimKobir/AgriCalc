@@ -1,0 +1,5 @@
+Treatment,Seeds_Sown,Seeds_Germinated,Yield_g
+Control,100,72,42
+Treatment A,100,81,49
+Treatment B,100,88,55
+Treatment C,100,94,61
