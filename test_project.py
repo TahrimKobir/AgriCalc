@@ -47,10 +47,13 @@ def test_treatment_summary():
     )
     summary = treatment_summary(data)
     means = dict(zip(summary["Treatment_Group"], summary["Mean"]))
+
     assert means["A"] == 12
     assert means["B"] == 21
-    assert summary.loc[summary["Treatment_Group"] == "A", "SE"].iloc[0] == 2.0
-
+    assert np.isclose(
+        summary.loc[summary["Treatment_Group"] == "A", "SE"].iloc[0],
+        2.0,
+    )
 
 def test_run_anova():
     data = pd.DataFrame(
