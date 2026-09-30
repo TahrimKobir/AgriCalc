@@ -1,0 +1,31 @@
+Treatment,Replicate,Seeds_Sown,Seeds_Germinated,Yield_g
+Control,1,100,73,41.2
+Control,2,100,75,42.0
+Control,3,100,72,40.8
+Control,4,100,74,41.5
+Control,5,100,76,42.3
+Hydropriming,1,100,79,46.1
+Hydropriming,2,100,81,47.0
+Hydropriming,3,100,80,46.5
+Hydropriming,4,100,82,47.4
+Hydropriming,5,100,78,45.8
+ZnSO4 Priming,1,100,84,51.2
+ZnSO4 Priming,2,100,86,52.0
+ZnSO4 Priming,3,100,85,51.6
+ZnSO4 Priming,4,100,87,52.5
+ZnSO4 Priming,5,100,83,50.8
+Nano-Zn 25 ppm,1,100,88,55.4
+Nano-Zn 25 ppm,2,100,89,56.1
+Nano-Zn 25 ppm,3,100,90,55.8
+Nano-Zn 25 ppm,4,100,87,54.9
+Nano-Zn 25 ppm,5,100,91,56.5
+Nano-Zn 50 ppm,1,100,92,60.1
+Nano-Zn 50 ppm,2,100,93,61.0
+Nano-Zn 50 ppm,3,100,91,59.6
+Nano-Zn 50 ppm,4,100,94,61.5
+Nano-Zn 50 ppm,5,100,92,60.7
+Nano-Zn 100 ppm,1,100,95,65.2
+Nano-Zn 100 ppm,2,100,94,64.5
+Nano-Zn 100 ppm,3,100,96,66.0
+Nano-Zn 100 ppm,4,100,95,65.7
+Nano-Zn 100 ppm,5,100,97,66.4
