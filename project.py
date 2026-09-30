@@ -341,7 +341,11 @@ def main():
                 points="all",
                 title="Yield distribution",
             )
-            st.plotly_chart(figure, use_container_width=True)
+st.plotly_chart(
+    figure,
+    use_container_width=True,
+    key="visualization_scatter_chart",
+)
         else:
             figure = px.histogram(df, x="Yield_g", nbins=12, title="Yield distribution")
             st.plotly_chart(figure, use_container_width=True)
@@ -395,10 +399,11 @@ def main():
             summary = treatment_summary(df, response)
             summary["Letter"] = summary["Treatment_Group"].map(letters)
             st.dataframe(summary.round(4), use_container_width=True, hide_index=True)
-            st.plotly_chart(
-                build_mean_error_figure(df, response, error, alpha),
-                use_container_width=True,
-            )
+st.plotly_chart(
+    build_mean_error_figure(df, "Yield_g", error, alpha),
+    use_container_width=True,
+    key="overview_treatment_chart",
+)
             st.markdown("#### Tukey HSD pairwise comparisons")
             st.dataframe(tukey.round(4), use_container_width=True, hide_index=True)
         except ValueError as error:
